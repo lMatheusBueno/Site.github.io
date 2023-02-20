@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="Evilyn foto.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Evilyn Nails Design </title>
+</head>
+
+<body>
+	<header>
+		<div class="banner">
+			<script>
+				const h1 = document.querySelector('h1');
+				let i = 0;
+
+				const typing = () => {
+					if (i < h1.innerHTML.length) {
+						h1.innerHTML = h1.innerHTML.substring(0, i + 1) + '_';
+						i++;
+						setTimeout(typing, 100);
+					} else {
+						h1.innerHTML = h1.innerHTML.substring(0, i);
+					}
+				};
+
+				typing();
+			</script>
+
+
+			<div>
+				<div1>
+					<img src="Fotos/Evilynfoto.jpg"></img>
+				</div1>
+				<h1 id="title">Evilyn Nails Designer</h1>
+			</div>
+
+
+		</div>
+	</header>
+
+	<main>
+		<div class="conteudo">
+			<ul class="produtos">
+				<div class="grid">
+					<div>
+						<h2>Fibra de vidro </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um alongamento!">
+							<img src="Fotos/FibraDeVidro.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 150,00</p>
+						<!-- <p>Um dos métodos mais inovadores é a unha de fibra de vidro, uma das mais utilizadas no mercado de unhas!</p> -->
+					</div>
+					<div>
+						<h2>Manutenção Fibra </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar minha Manutenção">
+							<img src="Fotos/Manutenção.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 100,00</p>
+						<!-- <p>Manutenção realizada durante 20 a 25 dias.</p> -->
+
+					</div>
+					<div>
+						<h2>Manicure </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para manicure tradicional!">
+							<img src="Fotos/Manicure.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 25,00</p>
+						<!-- <p></p> -->
+
+					</div>
+
+					<div>
+						<h2>Pedicure </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para Pedicure!">
+							<img src="Fotos/Pedicure.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 30,00</p>
+						<!-- <p></p> -->
+					</div>
+
+					<div>
+
+						<h2>Esmaltação Gel </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para Esmaltação Em Gel!">
+							<img src="Fotos/EsmaltaçãoEmGel.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 50,00</p>
+						<p></p>
+					</div>
+
+					<div>
+						<h2>Plasticas nos pés </h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para realizar a plastica Dos Pés!">
+							<img src="Fotos/plasticaDosPés.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 50,00</p>
+						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+					</div>
+					<div>
+						<h2>Pacote 1</h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para realizar a plastica Dos Pés!">
+							<img src="Fotos/Pacote1.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 120,00</p>
+						<p>4 Manicure.<br> 1 Pedicure.</p>
+					</div>
+					<div>
+						<h2>Pacote 2</h2>
+						<a
+							href="https://api.whatsapp.com/send?phone=+5544998919164&text=Olá gostaria de marcar um horário para realizar a plastica Dos Pés!">
+							<img src="Fotos/Pacote2.jpeg">
+
+						</a>
+						<p class="produto-preco">R$ 150,00</p>
+						<p>4 Manicure.<br> 2 Pedicure.</p>
+					</div>
+					<div class="cookie-consent">
+						<p>Este site usa cookies para melhorar a sua experiência. <button
+								id="accept-cookie-btn">Aceitar</button></p>
+					</div>
+
+				</div>
+				<script>const cookieBtn = document.getElementById("accept-cookie-btn");
+
+					cookieBtn.addEventListener("click", function () {
+						const cookieConsent = document.querySelector(".cookie-consent");
+						cookieConsent.style.display = "none";
+					});
+				</script>
+		</div>
+		</ul>
+
+	</main>
+
+	<footer>
+		<!-- Sai fora curioso-->
+		<p class="copyright">&copy; Matheus Bueno 2023</p>
+
+	</footer>
+</body>
+
+</html>
+
+
+
+</html>
